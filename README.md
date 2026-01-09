@@ -94,25 +94,35 @@ PostgreSQL Database
 ## Project Structure
 
 ```
-frontend/
-├── index.html
-├── login.html
-├── register.html
-├── verify-otp.html
-├── forgot-password.html
-├── reset-password.html
-├── dashboard.html
-├── css/style.css
-└── js/auth.js
+├── secureauth/
+│ └── src/main/java/com/secureauth/secureauth/
+│ ├── config/
+│ │ └── CorsConfig.java
+│ ├── controller/
+│ │ ├── AuthController.java
+│ │ └── TestController.java
+│ ├── dao/
+│ │ └── UserDAO.java
+│ ├── dto/
+│ │ └── ResetPasswordRequest.java
+│ ├── model/
+│ │ ├── ApiResponse.java
+│ │ └── User.java
+│ ├── security/
+│ │ ├── FilterConfig.java
+│ │ └── JwtFilter.java
+│ ├── service/
+│ │ └── EmailService.java
+│ ├── util/
+│ │ ├── JwtUtil.java
+│ │ ├── OTPUtil.java
+│ │ └── PasswordUtil.java
+│ └── SecureauthApplication.java
+|  └── src/main/resources
+|     └── application.properties
+├── pom.xml
+├── README.md
 
-secureauth/
-├── controller/
-├── config/
-├── filter/
-├── util/
-├── model/
-├── dao/
-└── SecureauthApplication.java
 ````
 
 ------------------------------------------------------------------------------
@@ -140,7 +150,7 @@ secureauth/
    spring.datasource.password=your_password
 
    spring.mail.username=your_email
-   spring.mail.password=your_email_password
+   spring.mail.password=your_email_app_password
    ```
 
 3. Run the application
