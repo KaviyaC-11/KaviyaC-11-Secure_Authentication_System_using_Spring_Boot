@@ -1,0 +1,14 @@
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\config\CorsConfig.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\controller\AuthController.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\controller\TestController.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\dao\UserDAO.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\dto\ResetPasswordRequest.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\model\ApiResponse.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\model\User.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\SecureauthApplication.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\security\FilterConfig.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\security\JwtFilter.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\service\EmailService.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\util\JwtUtil.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\util\OTPUtil.java
+C:\Users\Kiva\Downloads\secureauth\secureauth\src\main\java\com\secureauth\secureauth\util\PasswordUtil.java
